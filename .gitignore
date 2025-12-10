@@ -1,0 +1,12 @@
+﻿node_modules/
+.env
+.env.local
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.db
+*.sqlite
+frontend/resources/app/dist/win-unpacked/
+frontend/*.exe
+frontend/*.dll

@@ -1,0 +1,184 @@
+═══════════════════════════════════════════════════════════════════════════
+                    UPLOAD CUSTOM SCHEDULE - QUICK GUIDE
+═══════════════════════════════════════════════════════════════════════════
+
+🎯 WHAT YOU CAN DO NOW
+───────────────────────────────────────────────────────────────────────────
+
+You can now upload your own Excel file to:
+✓ Automatically add all your subjects
+✓ Load your custom class schedule
+✓ Update the app with your routine
+
+
+📊 HOW TO PREPARE YOUR EXCEL FILE
+───────────────────────────────────────────────────────────────────────────
+
+Column A (Subject Names):
+  Math
+  Physics
+  Chemistry
+  English
+  History
+
+Columns B-H (Days):
+  Monday  Tuesday  Wednesday  Thursday  Friday  Saturday  Sunday
+
+Fill cells with:
+  - Class times (e.g., 10:00-11:00)
+  - Or any text (e.g., Period 1, Morning)
+  - Leave empty if no class that day
+
+
+EXAMPLE FORMAT:
+───────────────────────────────────────────────────────────────────────────
+
+Subject          Monday         Tuesday        Wednesday      Thursday       Friday
+─────────────────────────────────────────────────────────────────────────────
+Mathematics      10:00-11:00    11:00-12:00                   10:00-11:00
+Physics                         1:00-2:00      2:00-3:00                    2:00-3:00
+Chemistry        2:00-3:00                                    3:00-4:00
+English
+History
+
+
+🚀 HOW TO UPLOAD
+───────────────────────────────────────────────────────────────────────────
+
+Step 1: Open Settings
+  → Click ⚙️ button in the top-right corner
+
+Step 2: Find Upload Section
+  → Look for "📊 Upload Your Custom Schedule (Excel file):"
+
+Step 3: Choose File
+  → Click "📁 Choose Excel File"
+  → Select your .xlsx or .xls file
+
+Step 4: Upload
+  → Wait for the green ✅ confirmation message
+  → You'll see how many subjects were added
+
+Step 5: Done!
+  → Your subjects are automatically added
+  → Your schedule is now loaded
+  → Check Calendar to see your routine
+
+
+✅ WHAT HAPPENS AFTER UPLOAD
+───────────────────────────────────────────────────────────────────────────
+
+✓ All subjects from your Excel are added to the Subjects list
+✓ You can add/remove subjects manually afterward if needed
+✓ Today's schedule is populated based on current day
+✓ Tomorrow's schedule is populated for tomorrow
+✓ Full week schedule is available in the Calendar view
+
+
+📋 FILE REQUIREMENTS
+───────────────────────────────────────────────────────────────────────────
+
+✓ Format: .xlsx or .xls (Excel format)
+✓ First column: Subject names
+✓ Next 7 columns: Days (Monday-Sunday, in order)
+✓ First row: Subject names (in column A) and day names (columns B-H)
+✓ Days must be in correct order: Mon, Tue, Wed, Thu, Fri, Sat, Sun
+
+
+⚠️ IMPORTANT NOTES
+───────────────────────────────────────────────────────────────────────────
+
+✓ Column order matters - days must be Monday through Sunday
+✓ Don't use merged cells in Excel
+✓ Leave cells empty if you don't have class that day
+✓ Subject names can have spaces (e.g., "Computer Science")
+✓ You can upload multiple times - new subjects are added to existing ones
+
+
+📚 EXAMPLES OF VALID FORMATS
+───────────────────────────────────────────────────────────────────────────
+
+Simple Format:
+┌──────────┬────────┬─────────┬───────────┬──────────┬────────┬──────────┬──────────┐
+│ Subject  │ Monday │ Tuesday │ Wednesday │ Thursday │ Friday │ Saturday │ Sunday   │
+├──────────┼────────┼─────────┼───────────┼──────────┼────────┼──────────┼──────────┤
+│ Math     │ 9:00   │ 9:00    │           │ 9:00     │        │          │          │
+│ English  │        │ 10:00   │ 10:00     │          │ 10:00  │          │          │
+│ Science  │ 11:00  │         │ 11:00     │ 11:00    │        │          │          │
+└──────────┴────────┴─────────┴───────────┴──────────┴────────┴──────────┴──────────┘
+
+Detailed Format:
+┌───────────┬──────────────┬──────────────┬──────────────┬──────────────┬──────────────┐
+│ Subject   │ Monday       │ Tuesday      │ Wednesday    │ Thursday     │ Friday       │
+├───────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
+│ Maths     │ 9:00-9:45 AM │ 9:00-9:45 AM │              │ 9:00-9:45 AM │              │
+│ Physics   │              │ 10:00-10:45  │ 10:00-10:45  │              │ 10:00-10:45  │
+│ Chemistry │ 11:00-11:45  │              │ 11:00-11:45  │ 11:00-11:45  │              │
+└───────────┴──────────────┴──────────────┴──────────────┴──────────────┴──────────────┘
+
+
+❓ TROUBLESHOOTING
+───────────────────────────────────────────────────────────────────────────
+
+Q: File won't upload
+A: Make sure it's saved as .xlsx or .xls (Excel format)
+   Try saving again from Excel and upload again
+
+Q: No subjects appear after upload
+A: Check that Column A has subject names (not empty)
+   Verify subject names are in rows (vertically)
+   Make sure there are no merged cells
+
+Q: Schedule doesn't load
+A: Refresh the app (press F5)
+   Check that day names are spelled correctly
+   Make sure days are in order: Mon, Tue, Wed, Thu, Fri, Sat, Sun
+
+Q: Some data is missing
+A: The app reads the first sheet of the Excel file only
+   If you have multiple sheets, put your schedule in the first sheet
+   Remove any merged cells - they can cause parsing issues
+
+
+📁 TEMPLATE FILE
+───────────────────────────────────────────────────────────────────────────
+
+A template file is included: SCHEDULE_TEMPLATE.txt
+You can use this as a starting point:
+
+1. Open SCHEDULE_TEMPLATE.txt with Excel
+2. Edit with your subjects and times
+3. Save as .xlsx file
+4. Upload using the settings
+
+
+🎓 USE CASES
+───────────────────────────────────────────────────────────────────────────
+
+✓ Changing your class routine at the start of semester
+✓ Updating subjects you're taking
+✓ Using multiple schedules (create different Excel files)
+✓ Sharing your routine with classmates (they can upload the file)
+
+
+📖 DETAILED GUIDE
+───────────────────────────────────────────────────────────────────────────
+
+See the file: docs/HOW_TO_CREATE_EXCEL_SCHEDULE.md
+for complete step-by-step instructions with examples
+
+
+═══════════════════════════════════════════════════════════════════════════
+                           YOU'RE ALL SET!
+═══════════════════════════════════════════════════════════════════════════
+
+Ready to upload your custom schedule?
+1. Prepare your Excel file
+2. Open Settings (⚙️)
+3. Click "Choose Excel File"
+4. Select your file
+5. Done! Your routine is now loaded! 🎉
+
+═══════════════════════════════════════════════════════════════════════════
+Version: 1.0 | Created: December 2025 | Class Routine Manager
+═══════════════════════════════════════════════════════════════════════════

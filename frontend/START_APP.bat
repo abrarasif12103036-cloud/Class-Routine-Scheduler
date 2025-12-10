@@ -1,0 +1,3 @@
+@echo off
+echo Starting Class Routine Manager...
+start "" "Class Routine Manager.exe"
